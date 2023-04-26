@@ -15,8 +15,10 @@ AZURE DEPLOYMENT.
 Find 'Startup Commands' and enter the following line:
 `gunicorn --bind=0.0.0.0 --timeout 600 wsgi:app`
 3. (On every deployment) Build the react app. 
+
 ```cd frontend
 npm run build ``` 
+
 This will create a build folder in the `frontend` folder
 4. (On every deployment) Execute after-build.ps1 to move build folder to ../static
 `after-build.ps1`
