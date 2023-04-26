@@ -20,6 +20,8 @@ cd frontend
 npm run build
 ``` 
 This will create a build folder in the `frontend` folder 
+
 4. (On every deployment) Execute after-build.ps1 to move build folder to ../static 
 `after-build.ps1` 
+
 5. (On every deployment) Deploy to web app using VSCode 
