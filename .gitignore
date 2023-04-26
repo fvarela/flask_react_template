@@ -1,6 +1,5 @@
 frontend/node_modules/
 frontend/build/
-.vscode/
 .venv/
 .deployment
 __pycache__/
